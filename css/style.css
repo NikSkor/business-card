@@ -1,0 +1,66 @@
+html, body, p {
+    padding: 0;
+    margin: 0;
+}
+.new-font{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+    color: black;
+}
+.bold-text {
+    font-weight: bold;
+}
+.cyan-text {
+    color: #00ECBB;
+}
+.purple {
+    background-color: #6A13EB;
+}
+.white-text {
+    color: #fff;
+}
+.gray-text {
+    color: #433A5E;
+}
+.block1 {
+    width: 900px;
+    margin: auto;
+}
+.nav, .exp {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.nav li {
+    display: inline;
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.achievements {
+    list-style-image: url("../img/icon-ok.png");
+}
+
+.str-points {
+    list-style-image: url("../img/icon-ok-2.png");
+}
+.interests-img {
+    display: inline-block;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 180%;
+}
+.img-1 {
+    background-image: url("../img/priroda.jpg");
+}
+.img-2 {
+    background-image: url("../img/mystic.jpg");
+}
+.img-3 {
+    background-image: url("../img/marvel.jpeg");
+}

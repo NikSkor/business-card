@@ -4,45 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Business card</title>
-    <style>
-        p,li{
-            font-family: Arial, Helvetica, sans-serif;
-        }
-    </style>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
+<body class="gray-text new-font">
      <div>
-         <p>Никита Скородумов</p>
-         <ul>
-             <li>Опыт работы</li>
-             <li>Достижения</li>
-             <li>Сильные стороны</li>
-             <li>Личное</li>
-             <li>Контакты</li>
-         </ul>
+        <div class="purple">
+            <div class="block1">
+                <p><span class="bold-text cyan-text">НИКИТА СКОРОДУМОВ</span></p>
+                <ul class="cyan-text nav">
+                    <li>Опыт работы</li>
+                    <li>Достижения</li>
+                    <li>Сильные стороны</li>
+                    <li>Личное</li>
+                    <li>Контакты</li>
+                </ul>
 
-         <img src="https://sun9-50.userapi.com/impg/c858024/v858024605/1cffbc/IaZWs1AqwXs.jpg?size=1620x2160&quality=96&sign=f7393fe2d16d21da27703b76882ba495&type=album" alt="Моё фото" width="20%">
-         <p>
-             Начинающий веб - разработчик. Сфера веба мне крайне интересна и я развиваюсь в этом направлении. Сейчас работаю преподавателем в Beauty-индустрии, но мечатю сменить направление работы.
-         </p>
-         <hr>
-         <h1>Начинающий веб-разработчик.</h1>
-         <h2>Опыт работы</h2>
-            <ol>
-                <li>Январь 2012 — февраль 2013 - специалист в Министерстве природных ресурсов Пермского края</li>
-                <li>Январь 2015 — по настоящее время - преподаватель в УЦ Профессионал</li>
-            </ol>
+                <img src="./img/main.png" alt="Моё фото" width="900px">
+                <p class="white-text">
+                    Начинающий веб - разработчик. Сфера веба мне крайне интересна и я развиваюсь в этом направлении. Сейчас работаю преподавателем в Beauty-индустрии, но мечатю сменить направление работы.
+                </p>
+                <h1 class="white-text">Начинающий веб-разработчик.</h1>
+            </div>
+
+        </div>
         <hr>
+        <div class="block1">
+            <h2>Опыт работы</h2>
+                <ol class="exp">
+                    <li><span class="bold-text">Январь 2012 — февраль 2013</span> - специалист в Министерстве природных ресурсов Пермского края</li>
+                    <li><span class="bold-text">Январь 2015 — по настоящее время</span> - преподаватель в УЦ Профессионал</li>
+                </ol>
+        </div>
+
+        <hr>
+        <div class="block1">
             <h2>Мои самые большие достижения</h2>
             <p>Главные профессиональные достижения за последние годы</p>
-            <ul>
+            <ul class="achievements bold-text">
                 <li>Три раза победил в номинации лучший технолог года</li>
                 <li>Веду 6 курсов по повышению квалификации</li>
                 <li>Стал преподавателем профессионального образования</li>
             </ul>
+        </div>
+
         <hr>
+        <div class="block1">
             <h2>Мои сильные стороны</h2>
-            <ul>
+            <ul class="str-points bold-text">
                 <li>усидчивый</li>
                 <li>стрессоустойчивый</li>
                 <li>уравновешенный</li>
@@ -52,22 +60,35 @@
                 <li>ответственный</li>
                 <li>исполнительный</li>
             </ul>
+        </div>
+
         <hr>
-            <h2>Мой принцип работы</h2>
-            <p>"Будь компетентен!"</p>
+        <div class="purple">
+            <div class="block1">
+                <h2 class="white-text">Мой принцип работы</h2>
+                <p class="white-text"><i>"Будь компетентен!"</i></p>
+            </div>
+        </div>
+
         <hr>
+        <div class="block1">
             <h2>Личное</h2>
             <p>Люблю природу и прогулки, тайны и загадки и вселенную Marvel</p>
 
-            <img src="" alt="picture_1">
-            <img src="" alt="picture_2">
-            <img src="" alt="picture_3">
+            <div class="interests-img img-1"></div>
+            <div class="interests-img img-2"></div>
+            <div class="interests-img img-3"></div>
+        </div>
+
 
             <hr>
+        <div class="block1">
             <h2>Контакт</h2>
             <form action="">
                 <input type="text" name="" id="">
             </form>
+        </div>
+
 
         </div>
 </body>
