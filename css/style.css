@@ -4,11 +4,16 @@ html, body, p {
 }
 .new-font{
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+h1 {
+    font-size: 40px;
 }
 h2 {
     color: black;
     margin-top: 0;
     margin-bottom: 20px;
+    font-size: 36px;
 }
 .bold-text {
     font-weight: bold;
@@ -30,8 +35,11 @@ h2 {
 .block1 {
     width: 900px;
     margin: auto;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.block1.no-padding-top {
+    padding-top: 0;
 }
 .nav {
     list-style: none;
@@ -41,6 +49,7 @@ h2 {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 40px;
+    font-size: 20px;
 }
 .exp {
     list-style: none;
@@ -64,14 +73,19 @@ h2 {
 .str-points {
     list-style-image: url("../img/icon-ok-2.png");
 }
+.img-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    
+}
 .interests-img {
-    display: inline-block;
     border-radius: 50%;
     width: 250px;
     height: 250px;
     background-position: center center;
     background-size: cover;
-    background-size: 180%;
+    /* background-size: 180%; */
 }
 .img-1 {
     background-image: url("../img/priroda.jpg");
@@ -86,7 +100,8 @@ h2 {
     width: 980px;
 }
 .name-tag {
-    font-size: 28px;
+    font-size: 24px;
+    letter-spacing: 2px;
 }
 .paragraph {
     margin: 20px 0;
@@ -97,4 +112,9 @@ h2 {
     background-image: url('../img/credo-bg.png');
     background-position: center;
     background-size: cover;
+    padding-bottom: 15px;
+    font-size: 24px;
+}
+.no-padding-top {
+    padding-top: 0;
 }
