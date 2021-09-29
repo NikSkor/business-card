@@ -7,6 +7,8 @@ html, body, p {
 }
 h2 {
     color: black;
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 .bold-text {
     font-weight: bold;
@@ -23,14 +25,30 @@ h2 {
 .gray-text {
     color: #433A5E;
 }
+
+/*отступы*/
 .block1 {
     width: 900px;
     margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
-.nav, .exp {
+.nav {
     list-style: none;
     padding: 0;
     margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.exp {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.exp li {
+    margin: 10px 0;
 }
 .nav li {
     display: inline;
@@ -52,7 +70,7 @@ h2 {
     width: 250px;
     height: 250px;
     background-position: center center;
-    background-repeat: no-repeat;
+    background-size: cover;
     background-size: 180%;
 }
 .img-1 {
@@ -63,4 +81,20 @@ h2 {
 }
 .img-3 {
     background-image: url("../img/marvel.jpeg");
+}
+.logo-img {
+    width: 980px;
+}
+.name-tag {
+    font-size: 28px;
+}
+.paragraph {
+    margin: 20px 0;
+    font-size: 18px;
+    line-height: 30px;
+}
+.hands-bg {
+    background-image: url('../img/credo-bg.png');
+    background-position: center;
+    background-size: cover;
 }
