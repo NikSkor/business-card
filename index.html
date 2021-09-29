@@ -9,14 +9,14 @@
 <body class="gray-text new-font">
      <div>
         <div class="purple">
-            <div class="block1">
+            <div class="block1" id="navigation">
                 <ul class="cyan-text nav" style="padding-top: 20px;">
                     <li><span class="bold-text cyan-text name-tag">НИКИТА <br>СКОРОДУМОВ</span></li>
-                    <li>Опыт работы</li>
-                    <li>Достижения</li>
-                    <li>Сильные стороны</li>
-                    <li>Личное</li>
-                    <li>Контакты</li>
+                    <li><a href="#work">Опыт работы</a></li>
+                    <li><a href="#achievements">Достижения</a></li>
+                    <li><a href="#strengths">Сильные стороны</a></li>
+                    <li><a href="#personal">Личное</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
                 </ul>
 
                 <img src="./img/main.png" alt="Моё фото" class="logo-img">
@@ -27,7 +27,7 @@
             </div>
 
         </div>
-        <div class="block1">
+        <div class="block1" id="work">
             <h2>Опыт работы</h2>
                 <ol class="exp">
                     <li><span class="bold-text">Январь 2012 — февраль 2013</span> - специалист в Министерстве природных ресурсов Пермского края</li>
@@ -35,7 +35,7 @@
                 </ol>
         </div>
 
-        <div class="block1 no-padding-top">
+        <div class="block1 no-padding-top" id="achievements">
             <h2>Мои самые большие достижения</h2>
             <p>Главные профессиональные достижения за последние годы</p>
             <ul class="achievements bold-text">
@@ -45,7 +45,7 @@
             </ul>
         </div>
 
-        <div class="block1 no-padding-top">
+        <div class="block1 no-padding-top" id="strengths">
             <h2>Мои сильные стороны</h2>
             <ul class="str-points bold-text">
                 <li>усидчивый</li>
@@ -66,7 +66,7 @@
             </div>
         </div>
 
-        <div class="block1">
+        <div class="block1" id="personal">
             <h2>Личное</h2>
             <p class="paragraph">Люблю природу и прогулки, тайны и загадки и вселенную Marvel</p>
             <div class="img-container">
@@ -78,11 +78,16 @@
         </div>
 
 
-        <div class="block1">
+        <div class="block1 no-padding-top" id="contacts">
             <h2>Контакт</h2>
-            <form action="">
-                <input type="text" name="" id="">
+            <form action="/" method="POST" id="contact-form">
+                <input type="text" name="FIO" id="" placeholder="Ф.И.О">
+                <input type="email" name="email" id="" placeholder="Email">
+                <textarea name="message" id="textarea" placeholder="Сообщение"></textarea>
+                <input type="submit" name="submit" value="Отправить" id="submit">
             </form>
+
+            <a href="#navigation" id="gotop">&and;</a>
         </div>
 
 

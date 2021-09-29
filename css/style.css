@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 html, body, p {
     padding: 0;
     margin: 0;
@@ -33,7 +36,7 @@ h2 {
 
 /*отступы*/
 .block1 {
-    width: 900px;
+    width: 980px;
     margin: auto;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -117,4 +120,49 @@ h2 {
 }
 .no-padding-top {
     padding-top: 0;
+}
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#contact-form input, #contact-form textarea {
+    padding: 20px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    border: 3px solid #00ECBB;
+    width: 100%;
+}
+#textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100px;
+    resize: none;
+    /* padding: 5px; */
+}
+input#submit {
+    width: 350px;
+    cursor: pointer;
+    background-color: #00ECBB;
+    color: #6A13EB;
+    font-size: 24px;
+}
+.nav li a {
+    text-decoration: none;
+    color: #00ECBB;
+}
+#gotop {
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    height: 75px;
+    width: 75px;
+    background-color: #00ECBB;
+    color: #6A13EB;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
 }
